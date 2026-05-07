@@ -23,6 +23,24 @@
 
 
   # How Internet Works
+
+  #Git
+
+  ##Committing the changes
+   ### Adding to track
+   - `git add .`
+   ###Commit your changes
+    -`git commit -m "<Your messages>"`
+
+    ##Push (Uplaod to git)
+    -Git always have a branch and we push to the branch
+    -Before push check for changes
+      -`git status`
+      -If there are any chhanges then commit the changes first
+    -After commiting all the changes, thhen run 
+      -`git push origin <yourlcoalbranch>[:<remotebranch]`
+      -e.g. `git push orign main` or `git push origin main:main`
+
   
 
   
