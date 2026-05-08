@@ -96,6 +96,7 @@ const productInfo = [
 //   console.log("*************************");
 // }
 
+
 // for(const val of productInfo) {
 //   console.log("Name", val.productName);
 //   console.log("Brand", val.productBrand);
