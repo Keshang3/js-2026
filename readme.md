@@ -47,10 +47,12 @@
       -If there are any chhanges then commit the changes first
     -After commiting all the changes, then run 
       -`git push origin <yourlcoalbranch>[:<remotebranch]`
+      
       -e.g. `git push orign main` or `git push origin main:main`
 
 
 ##
   
  
+
   
