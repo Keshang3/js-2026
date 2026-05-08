@@ -25,6 +25,14 @@
   # How Internet Works
 
   #Git
+    ## Initialize the repo
+      - Run `git init`
+    ##Remote connect to repo
+    -Run `git remote add <name/origin> <url>`
+
+    ##Cloning a repo
+      -Go to the directory where you want to clone
+      -Run `git clone <url> [foldername]`
 
   ##Committing the changes
    ### Adding to track
