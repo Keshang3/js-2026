@@ -50,6 +50,7 @@
       
       -e.g. `git push orign main` or `git push origin main:main`
 
+We are going to learn Git related problems.
 
 ##
   
