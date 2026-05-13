@@ -54,6 +54,61 @@ We are going to learn Git related problems.
 
 ##
   
+
+# JS Important topics:
+### Functional Programming
+### Object Oriented  based programming
+
+### Functions
+  - code block repeat execute
+  - Built-in functions
+  - Custom Functions
+    - General
+    - Arrow(Most Famous)
+
+
+```js
+  // A function can take anything as input and can return anything as output
+  //general
+  function functionName(params, ....) {
+    //body definition
+  return data;
+  }
+
+  const functionName = function(params, ....) {
+    //body Definition
+    return data;
+  }
+
+  const result = functionName(args, ...) //call
+
+
+  //arrow 
+  const functionName = (params, params, ....) => {
+    return data;
+  }
+
+  const obj = {
+    functionName() {
+
+    },
+
+
+
+    functionName = () => {
+
+    }
+  }
+
+  // event listeners
+
+  //in function Syntax error will be shown but the logical error like doing subtraction instead addition
+```
+
+
+
+
+
  
 
   
