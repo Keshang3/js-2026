@@ -81,3 +81,133 @@ const courseInfo = [
     month: "1month",
   },
 ];
+
+
+
+// const arr = [6, 4, 8, 7, 9];
+// arr.push(3);
+
+// const h = arr.pop();
+
+//arr.shift();
+// arr.unshift(0)
+
+// console.log(arr);
+// console.log(arr.includes(3))
+// console.log(arr.indexOf(1))
+
+// const slice = arr.slice(1, 4)
+// console.log(slice);
+
+
+// arr.splice(1,2,9);
+// console.log(arr);
+
+
+// arr.forEach((num) => {
+//   console.log(num);
+  
+// })
+
+// arr.reverse();
+// console.log(arr);
+
+
+// const a = [1, 2];
+// const b = [3, 4];
+
+// const result = a.concat(b);
+// console.log(result);
+
+// const result = [...a, ...b ]
+// console.log(result);
+
+
+//every()
+// const arr = [2, 4, 9];
+// console.log(arr.every(num => num % 2 === 0));
+
+//map
+
+// const num = [1, 2, 3];
+// const doubled = num.map((num) => {
+//   return num * 2;
+// });
+
+// console.log(doubled);
+// console.log(num);
+
+
+
+// const users = [
+//   {name: "Ram", age: 20},
+//   {name: "Hari", age: 25}
+// ];
+
+// const names = users.map((user) => {
+//   return user.name;
+
+// })
+
+
+// console.log(names);
+
+
+// filter
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const evenNumbers = numbers.filter((num) => {
+//   return num % 2 === 0;
+// });
+
+// console.log(evenNumbers);
+
+
+
+// reduce
+
+// const arr = [1, 2, 3];
+// const res = arr.reduce((acc, curr) => {
+//   return acc + curr;
+// })
+
+// console.log(res);
+
+
+
+
+// Object built-in-methods
+
+// const user = {
+//   name: "john",
+//   age: 20
+// }
+
+// // console.log(Object.keys(user));
+
+// Object.keys(user).forEach((key => {
+//   console.log(key);
+  
+// }))
+
+
+// //Converts Object into Json String
+
+// const user = {
+//   name: "John",
+//   age: 20
+// };
+
+
+// const str = JSON.stringify(user);
+// console.log(str);
+
+
+// const str = '{"name":"John","age":20}'
+// const obj = JSON.parse(str)
+// console.log(obj);
+
+
+
+
