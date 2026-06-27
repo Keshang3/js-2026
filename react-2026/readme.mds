@@ -1,0 +1,53 @@
+// SPA(Single Page Application)
+//DOM Manipulation
+// Real DOM
+// Virtual DOM
+
+
+## React Hook
+  -Special function of react -data maintain, performance optimize, Effect listen, globally state manage, caching maintain
+  - can be used within react components only within custom hook
+
+## State and Effect
+
+ useEffect(() => {
+    console.log("If any of the states in this component is changes/ for any render of this component");
+    
+  })
+
+  useEffect(() => {
+    console.log("Only called for the first time when component is mounted");
+    
+  },[]);
+
+  useEffect(() => {
+    console.log("This hook gets loaded for any of the isSubmitting is changes");
+  },[isSubmitting])
+
+
+
+## Types of Application
+  a. 'REST'
+    -overall web development under http protocol
+  b. 'SOAP'
+      -Secured connection (Fintech Product)
+  c. 'GraphSQL'
+      -With heavy data set, controlled and called by FE
+  d. 'gRPC'
+      -Server to server for microservice based architecture
+
+
+## We will be using REST API
+
+
+-Or
+a. Open/Public API
+b. Closed/provate/protected API
+
+## Private API using Token(JWT Token)
+  -Login API Call =====> Server
+  -
+
+
+## XHR XML Http Request
+  -fetch, axios, ajax
